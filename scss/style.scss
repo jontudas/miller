@@ -1,0 +1,628 @@
+// common scss//
+$primaryColor: #ff5e14;
+$secondaryColor: #00235a;
+$graColor: #76808f;
+* {
+    font-family: 'Roboto', sans-serif;
+ }
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    & a {
+        text-decoration: none;
+        color: #fff;
+        
+    }
+}
+.bg {
+  background-color: $secondaryColor;
+}
+.main-button {
+    padding: 24px 39px;
+    background-color: $primaryColor;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+}
+.blog-title {
+    color: $primaryColor;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;;
+}
+.bold-title {
+    color: #00235a;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+.bold-description {
+    color: $graColor;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+// header
+.miller-nabver {
+    background-color: $secondaryColor;
+} 
+.miller-top-nav {
+    & li {
+        margin-right: 49px;
+        & a {
+            text-transform: capitalize;
+            line-height: 42px;
+            font-size: 14px;
+
+        }
+    }
+}
+
+.nav-contact select {
+    background: $primaryColor;
+    border: navajowhite;
+    color: #fff;
+    padding: 13px 28px;
+}
+.miller-button{
+    background: url("image/01_homepage-Recovered.jpg");
+    background-color: #cccccc;
+     & a {
+         color: $secondaryColor;
+         padding: 34px 43px;
+         background-color: rgba(118, 116, 116, 0);
+         display: inline-block;
+         font-size: 16px;
+     }
+     & .navbar-nav a:hover {
+         background-color: $primaryColor;
+         color: #fff;
+     }
+}
+.navbar-brand {
+  color: $primaryColor !important;
+  font-size: 36px !important;
+}
+.navbar-brand {
+  color: #fff;
+}
+.miller-button-searchber a {
+    padding: 0;
+}
+.miller-button-searchber li {
+    margin-right: 11px;
+    background: #fff;
+    padding: 16px 16px;
+    box-shadow: 0px 0px 9px 1px #dfdede;
+    & a:hover {
+        background-color: #fff;
+        color: $primaryColor;
+    }
+  }
+  .miller-button-searchber ul {
+    margin-top: 16px;
+  }
+
+//   slider 
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 18.25rem !important;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: inherit;
+  }
+  .miiler-slider-box.miile-slider.clearfix {
+      padding: 210px 0;;
+}
+.miile-slider {
+    & h2 {
+        font-size: 6em;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+}
+.miile-slider  p {
+    color: #e2e2e1;
+    margin-bottom: 45px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.carousel-item {
+    padding: 200px 0 !important;
+}
+.owl-nav button {
+    background: #fff !important;
+    width: 82px;
+    height: 77px;
+    position: absolute;
+    left: 0px;
+    z-index: 9;
+    bottom: 0px;
+    text-align: center;
+    color: black !important;
+    line-height: 36px;
+    border-radius: 0px;
+  }
+  .owl-nav .owl-next {
+    left: auto;
+    right: 0px;
+  }
+  .owl-dots {
+    display: none;
+  }
+
+//   service css 
+.miller-service {
+    padding: 114px 0;
+  }
+.miller-service-box {
+    border: 1px solid black;
+    overflow: hidden;
+    & img {
+        width: 101%;
+    height: auto;
+    margin: -2px;
+    }
+  }
+  .miller-service-item {
+    margin-top: 30px;
+  }
+  .miller-service-image {
+      position: relative;
+  }
+  .logo {
+    color: #00235a;
+    background: white;
+    display: inline-block;
+    position: absolute;
+    bottom: -30px;
+    right: 36px;
+    height: 66px;
+    width: 70px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 10px 2px #d2cfcf;
+  }
+
+
+  .miller-service-box-content {
+    padding: 37px 39px;
+      & p {
+          color: $primaryColor;
+          font-size: 16px;
+          text-transform: uppercase;
+          padding: 0;
+          margin: 0;;
+      }
+      & h4 {
+        padding: 8px 0 13px;
+        font-size: 33px;
+        font-weight: 600;
+        color: $secondaryColor;
+      }
+     & .miller-service-readmore {
+         & a {
+            height: 45px;
+            width: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #cacaca;
+            border: 1px solid #ececec;
+            font-weight: 300;
+         }
+         & p {
+            margin: 10px 10px 10px;
+            color: $secondaryColor;
+         }
+     }
+  }
+  .miller-service-box {
+    border: 0px solid black;
+    overflow: hidden;
+    box-shadow: 1px 3px 8px 1px #f2f2f2;
+  }
+
+//   about-section 
+.miller-about {
+    padding: 112px 0;
+  }
+  .parsonal-content {
+    margin: 0 15px;
+  }
+  .parson.d-flex {
+    background: white;
+    display: inline;
+    width: 448px;
+    padding: 15px 18px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 3px 3px 1px #dddbdb2e;
+    margin-top: 24px;
+  }
+.about-seo {
+    & .parsonal-content {
+        & h3 {
+          color: $secondaryColor;
+          text-transform: uppercase;
+          font-size: 20px;
+          margin: 0;
+        }
+    }
+}
+
+// portfolio css 
+.miller-portfolio-header.bg {
+  padding: 112px 0 50px;
+  & .bold-title {
+    color: #fff;
+  }
+}
+.miller-portfolio-header hr {
+  background: #868181;
+}
+.miller-portfolio-appointment {
+  background-color: $primaryColor;
+  padding: 60px 0;
+  & .blog-title {
+    color: #fff
+  }
+  & .bold-title {
+    color: #fff
+  }
+  & .bold-description {
+    color: #fff;
+    margin: 0;
+  }
+  & hr {
+    background-color: #fff;
+  }
+  & .appointment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  & .appointment-button {
+    background-color: #fff;
+    padding: 20px 40px;
+    font-size: 20px;
+    color: $secondaryColor;
+    text-decoration: none;
+  }
+}
+
+// miller-construction 
+.miller-process {
+  background: #f8f8f8;
+  padding: 112px 0;
+}
+.miller-construction {
+  padding: 112px 0;
+}
+.miller-construction-activity {
+  & h4 {
+    color: $secondaryColor;
+    font-weight: 500;
+    margin-left: 20px;
+  }
+}
+.miller-construction-activity.d-flex {
+  align-items: center;
+}
+.miller-construction hr {
+  margin: 30px 0 40px;
+}
+.miller-work-item {
+  padding: 34px 38px 30px;
+  box-shadow: 0px 0px 4px 0px #ccbfbf6b;
+  background-color: #fff;
+
+}
+.miller-work-item h4 {
+  margin-top: 20px;
+  color: $secondaryColor;
+}
+
+// video css 
+.miller-video-content {
+  padding: 112px;
+  & .bold-title {
+    color: #fff;
+  }
+}
+.miller-progress {
+  margin-top: 200px;
+}
+.progress {
+  height: 4rem;
+  background-color: #082b63;
+  font-size: .75rem;
+  width: 62%;
+}
+.progress-bar {
+  background-color: $primaryColor;
+}
+.miller-video-play {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.miller-video-play {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  & .video-span {
+    background: #fff;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+  }
+}
+
+// slider 
+.miller-team {
+  padding: 112px 0;
+}
+.slider {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 22%;
+  gap: 1rem;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  cursor: grab;
+  margin-top: 2rem;
+  padding-inline: 1rem;
+}
+.slider::-webkit-scrollbar {
+  display: none;
+}
+.slide img {
+  inline-size: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+@media (max-width: 440px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .slider {
+    grid-auto-columns: 40%;
+  }
+}
+.slide {
+  padding: 30px 32px;
+  background-repeat: no-repeat;
+  & p {
+    text-transform: uppercase;
+    font: 14px;
+    font-weight: bold;
+    margin: 2px;
+    color: #b3b3b3;
+    ;
+  }
+  & h3 {
+    color: #FFF;
+    font: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  & .miller-slider-icon {
+    display: inline-block;
+    background: #ff5e14;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 340px;
+  }
+}
+
+// brant logo css 
+.miller-brant-container {
+  padding: 60px 0;
+}
+.miller-brant-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 132px;
+}
+.miller-brant-logo img {
+  width: 114px;
+  color: #fff !important;
+  height: auto;
+}
+
+// blogs- css 
+.miller-blogs {
+  padding: 114px 0;
+}
+.miller-blog-item {
+  box-shadow: 0px 2px 4px 3px #f2f2f2;
+  & img {
+    width: 100%;
+  }
+}
+.miller-blogs-box {
+  margin-top: 38px;
+}
+.miller-blog-image p {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+  color: #fff;
+  background: $primaryColor;
+  padding: 3px 16px;
+  font-weight: bold;
+}
+.miller-blog-image {
+  position: relative;
+}
+.miller-blog-content {
+  padding: 38px 34px;
+  & p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: $secondaryColor;
+  }
+  h3 {
+    font-size: 20px;
+    color: #00235a;
+    font-weight: bold;
+    margin: 6px 0 17px;
+  }
+  & .bold-description {
+    font-weight: 400;
+    color: #76808f;
+  }
+}
+.miller-blog-date {
+  & li {
+    margin-right: 25px;
+  }
+  & span {
+    color: $primaryColor;
+    margin-right: 5px;
+  }
+}
+// footer css 
+.miller-footer-top {
+  background: $secondaryColor;
+  border-bottom: 1px solid #2b436a
+}
+
+.footer-top-contact {
+  & h4 {
+    color: #667690;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+  }
+  & h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+  }
+}
+.miller-footer-top-text {
+  padding: 28px 38px;
+  border-right: 1px solid #2b436a;
+}
+.border-left {
+  border-left: 1px solid #2b436a;
+}
+
+.miller-footer-main.container {
+  padding: 70px 0;
+  & p,a {
+    color: #4b5c6f;
+    padding: 0px;
+  }
+  .news-content h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+.miller-footer-title {
+  & h5 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 42px;
+  }
+  & h5::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 49px;
+    background: $primaryColor;
+    margin-bottom: 16px;   
+  }
+}
+.footer-page-link {
+  margin-bottom: 19px;
+  color: #4b5c6f;
+  font-size: 16px;
+  text-transform: capitalize;
+  & span {
+    margin-right: 5px;
+  }
+  & a {
+  color: #5c728a;
+  }
+}
+.news-content {
+  margin-left: 26px;
+  margin-top: 1px;
+}
+.news-date span {
+  color: $primaryColor;
+  margin-right: 12px;
+}
+.form-control {
+	padding: 1.375rem 1.75rem;
+	background-color: #0b203f;
+	border: 0px solid #ced4da;
+}
+.input-group-text {
+	padding: 1.375rem 0.99rem;
+	background-color: $primaryColor;
+	border: 0px solid #ced4da;
+  color: #fff;
+}
+.miller-footer-button {
+  background-color: $primaryColor;
+  padding: 50px 0;
+  & p, a {
+    color: #fff;
+  }
+}
+.miller-footer-button-content {
+  & p {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+}
+.footer-social-icon li {
+  margin-right: 32px;
+  & a {
+    font-size: 20px;
+  }
+}
+.logo-image {
+  margin: 40px;
+}
+.logo-image img {
+  height: auto;
+  width: 103px;
+}
